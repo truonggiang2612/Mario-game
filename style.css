@@ -13,7 +13,11 @@ body {
 }
 h1 {
   margin-bottom: 30px;
-  font-size: 2.5em;
+  font-size: 3.5em;
+}
+h2 {
+  margin-bottom: 30px;
+  font-size: 22px;
 }
 .box {
   position: relative;
@@ -24,6 +28,7 @@ h1 {
   align-items: center;
   flex-direction: column;
   border-bottom: 2px solid #555;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
 }
 .box label {
   position: relative;
@@ -47,7 +52,7 @@ h1 {
 }
 .box label:nth-child(1) i {
   background-image: url(01.jpg);
-  animation: animate 0.5s steps(3) infinite;
+  animation: animate 0.3s steps(3) infinite;
 }
 .box label:nth-child(2) i {
   background-image: url(02.jpg);
@@ -55,7 +60,7 @@ h1 {
 }
 .box label:nth-child(3) i {
   background-image: url(03.jpg);
-  animation: animate 0.7s steps(3) infinite;
+  animation: animate 0.6s steps(3) infinite;
 }
 @keyframes animate {
   0% {

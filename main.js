@@ -4,6 +4,7 @@ const check3 = document.querySelector('#chk3');
 const reset = document.querySelector('.reset');
 
 // chỉ được click chọn 1 lần
+// disabled:  Vô hiệu hóa
 check1.onclick = () => {
     if (check1.checked === true) {
         check1.disabled = 'true';
